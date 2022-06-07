@@ -1,0 +1,79 @@
+body{background-color: rgba(185, 161, 132, 0.349);}
+
+.navbar{background-color: rgba(247, 236, 236, 0.753);
+color: rgba(27, 21, 21, 0.685);
+}
+
+li a{color: rgba(12, 9, 9, 0.404)!important;
+font-size: 20px;
+background-color: rgba(130, 169, 204, 0.411);
+
+} 
+li a:hover{color: rgba(0, 0, 0, 0.548)!important;
+    background-color: azure;
+}
+.navbar-toggler{
+    background-color: rgba(139, 149, 158, 0.555);
+}
+.mycard{
+    width: 150px;
+    height: 150px;
+    clip-path: circle(40%);
+    margin-top: -100px;
+}
+.card{
+    height: 450px;
+    border-top-right-radius: 20%;
+    border-top-left-radius: 20%;
+    
+    background-color: rgba(136, 201, 176, 0.5);
+    margin: 20px;
+}
+.cardbg{
+    background-image: url(img/幾何.jpg);
+    height: 200px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-right-radius: 20%;
+    border-top-left-radius: 20%;
+}
+.btn1{
+
+   
+    font-size: 30px;
+    color: rgb(228, 232, 236);
+    width: 100%;
+    background-color: blueviolet;
+    padding: 20px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.btn1 :hover{color: antiquewhite;}
+
+.container-intro{ background: rgb(24,105,24);
+    background: linear-gradient(90deg, rgba(24,105,24,0.6236695361738445) 8%, rgba(8,79,47,0.8365546902354692) 52%, rgba(0,255,229,0.6572829815519958) 84%); 
+padding: 70px;
+}
+
+.intro-p{
+    font-size: 50px;
+    margin-top: 20px;
+}
+.intro-p2{
+    margin-top: 20px;
+    font-size: 50px;
+}
+.intro-img{
+width: 200px;
+border-top-left-radius: 100px;
+border-top-right-radius: 100px;
+border-bottom-left-radius: 100px;
+border-bottom-right-radius: 100px ;
+}
+.container-footer{
+    background-color: rgba(104, 100, 95, 0.712);
+    
+}
